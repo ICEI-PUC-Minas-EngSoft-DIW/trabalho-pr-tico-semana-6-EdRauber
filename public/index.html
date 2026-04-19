@@ -3,10 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Aprendendo a Aprender</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="header-background">
+        <header class="header-principal">
+            <h1>APRENDENDO A APRENDER</h1>
+
+            <form class="form-pesquisa">
+                <label for="pesquisa">Pesquisar</label>
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite sua pesquisa...">
+                
+                <select name="categoria" id="categoria">
+                    <option value="">Filtrar por...</option>
+                    <option value="metodos">Métodos de estudo</option>
+                    <option value="mapas">Mapas mentais</option>
+                </select>
+
+                <button type="submit">Buscar</button>
+            </form>
+        </header>
+
+        <nav class="nav-principal" aria-label="Menu Principal">
+            <div class="nav-background">
+                <ul>
+                    <li><a href="em-construcao.html">INTRODUÇÃO</a></li>
+                    <li><a href="em-construcao.html">MÉTODOS</a></li>
+                    <li><a href="em-construcao.html">LIVROS</a></li>
+                    <li><a href="em-construcao.html">CONTATO</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="banner-principal">
+            <img src="images/brain.png" alt="Banner principal do site" class="banner-imagem">
+            <div class="banner-texto">
+                <h2>Descubra como você aprende</h2>
+                <p>Um hub de estudos para quem quer ir além — explore métodos, avalie técnicas e desenvolva sua forma de aprender com base em ciência e prática.</p>
+                <a href="em-construcao.html" class="banner-botao">Começar agora</a>
+            </div>
+        </section>
+    </div>
+
+    <main class="main-principal">
+
+        <section class="section-introducao">
+            <div class="introducao-texto">
+                <h2>O que é este site?</h2>
+                <p>Este é um hub de estudos dedicado a quem quer aprender a aprender de verdade. Aqui você encontra métodos de estudo avaliados e explicados, conteúdos baseados em pesquisas científicas e ferramentas para descobrir quais técnicas funcionam melhor para o seu perfil.
+                <br><br>
+                Parte do nosso conteúdo é inspirado no trabalho do Dr. <b>Justin Sung</b> — ex-médico e um dos maiores especialistas em aprendizado eficiente do mundo — mas nosso objetivo vai além: queremos que você desenvolva autonomia para <b>avaliar e adaptar qualquer método</b> à sua própria realidade.</p>
+            </div>
+            <img src="images/Justin.jpg" alt="Imagem ilustrativa do Justin" class="ImagemJustin">
+        </section>
+
+        <section class="section-estudos">
+            <header>
+                <h3 class="h3meiotela">EXPLORE OS MÉTODOS</h3>
+            </header>
+
+            <div class="article-separate">
+                <article class="article-grinde">
+                    <header>
+                        <h3>Método GRINDE</h3>
+                    </header>
+                    <h5>Aprenda a criar mapas mentais que realmente funcionam com o método G.R.I.N.D.E</h5>
+                    <div class="artigos">
+                        <ul>
+                            <li><a href="em-construcao.html">Agrupamento</a></li>
+                            <li><a href="em-construcao.html">Relações</a></li>
+                            <li><a href="em-construcao.html">Interconexões</a></li>
+                            <li><a href="em-construcao.html">Não-Verbal</a></li>
+                            <li><a href="em-construcao.html">Direcional</a></li>
+                            <li><a href="em-construcao.html">Enfatização</a></li>
+                            <li><a href="em-construcao.html">Mais -></a></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="article-populares">
+                    <h3>MAIS ACESSADOS</h3>
+                    <a href="https://www.youtube.com/watch?v=okHkUIW46ks" target="_blank">
+                        <img src="images/2Stages.jpg" alt="Popular Video" class="twoStages">
+                    </a>
+                    <div class="titulo-hover">
+                        <span class="titulo-pt"><a href="em-construcao.html">Como se Lembrar de Tudo que Ler</a></span>
+                        <span class="titulo-en">-> How to Remember Everything You Read</span>
+                    </div>
+                </article>
+
+                <article class="article-destaque">
+                    <header>
+                        <h3>Método Feynman</h3>
+                    </header>
+                    <img src="images/what-is-the-feynman-technique.jpg" alt="Método Feynman" class="img-card">
+                    <p>Ensine para aprender — descubra por que explicar um assunto com suas próprias palavras é uma das formas mais eficientes de fixar conhecimento.</p>
+                    <a href="em-construcao.html">Saiba mais -></a>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-principal">
+        <div class="footer-coluna">
+            <h3>Contato</h3>
+            <a href="mailto:1658928@sga.pucminas.br">1658928@sga.pucminas.br</a>
+        </div>
+
+        <div class="footer-coluna">
+            <h3>Redes Sociais</h3>
+            <a href="https://github.com/EdRauber" target="_blank">GitHub</a>
+            <a href="em-construcao.html">LinkedIn</a>
+        </div>
+
+        <div class="footer-coluna">
+            <p>&copy; 2026 Eduardo Rauber. Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
