@@ -8,18 +8,17 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Eduardo Rauber Silva
+- Matricula: 924623
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: Um hub de estudos para quem quer ir além — explore métodos, avalie técnicas e desenvolva sua forma de aprender com base em ciência e prática.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](public/images/desktopv3.png)>>
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![alt text](public/images/mobilev3.png)
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
